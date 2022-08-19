@@ -8,10 +8,9 @@ We first build a dataset of text consisting of sentences, train machine learning
 
 Then the most accurate model is deployed as an Application Programming Interface (API) to extract potential quotations from any text.
 
-Keywords: Natural Language Processing, Quotations, Text Classification, Text Extraction, Prediction Model.
-
-Let's start with these!
-
+Let's start with these!  
 <a href="https://github.com/rickysoo/nlp-quote/blob/main/quote_prepare.ipynb">quote_prepare.ipnyb</a> - Ingest data and build a dataset of texts.  
 <a href="https://github.com/rickysoo/nlp-quote/blob/main/quote_train.ipynb">quote_train.ipynb</a> - Train models to predict quotability of texts.  
 <a href="https://github.com/rickysoo/nlp-quote/blob/main/quote_deploy.ipynb">quote_deploy.ipynb</a> - Deploy model to extract quotations from any text.  
+
+Keywords: Natural Language Processing, Quotations, Text Classification, Text Extraction, Prediction Model.

@@ -10,6 +10,6 @@ Then the most accurate model is deployed as an Application Programming Interface
 
 Keywords: Natural Language Processing, Quotations, Text Classification, Text Extraction, Prediction Model.
 
-quote-prepare.ipnyb - Ingest data and build a dataset of texts.
-quote-train.ipynb - Train models to predict quotability of texts.
-quote-deploy.ipynb - Deploy model to extract quotations from any text.
+quote-prepare.ipnyb - Ingest data and build a dataset of texts. 
+quote-train.ipynb - Train models to predict quotability of texts. 
+quote-deploy.ipynb - Deploy model to extract quotations from any text. 

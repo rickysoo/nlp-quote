@@ -11,5 +11,6 @@ Contact me if you like a demonstration how it works!
 <a href="https://github.com/rickysoo/nlp-quote/blob/main/quote_prepare.ipynb">quote_prepare.ipnyb</a> - Ingest data and build a dataset of texts.  
 <a href="https://github.com/rickysoo/nlp-quote/blob/main/quote_train.ipynb">quote_train.ipynb</a> - Train models to predict quotability of texts.  
 <a href="https://github.com/rickysoo/nlp-quote/blob/main/quote_deploy.ipynb">quote_deploy.ipynb</a> - Deploy model to extract quotations from any text.  
+<a href="https://github.com/rickysoo/nlp-quote/blob/main/server.py">server.py</a> - Start the server on local computer.  
 
 Keywords: Natural Language Processing, Quotations, Text Classification, Text Extraction, Prediction Model.

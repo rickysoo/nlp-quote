@@ -16,6 +16,8 @@ Keywords: Natural Language Processing, Quotations, Text Classification, Text Ext
 
 ## Further Enhancements
 
-<a href="https://github.com/rickysoo/nlp-quote/blob/main/server.py">server.py</a> - Start the API server on local computer.  
+25 August 2022 - A new RNN model is trained using the best hyperparameters found using Random Search. Then the new model is deployed to be run online and on local computer.
+
 <a href="https://github.com/rickysoo/nlp-quote/blob/main/quote_rnn.ipynb">quote_rnn.ipynb</a> - Search for the best hyperparameters for a better RNN model.  
 <a href="https://github.com/rickysoo/nlp-quote/blob/main/quote_deploy2.ipynb">quote_deploy2.ipynb</a> - Deploy model to extract quotations using the new model.  
+<a href="https://github.com/rickysoo/nlp-quote/blob/main/server.py">server.py</a> - Run the API server on local computer.  

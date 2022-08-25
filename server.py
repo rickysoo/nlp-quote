@@ -21,7 +21,22 @@ sentences_test = [
   'No one will reap except what they sow.'
 ]
 
-model = load_model('rnn2.h5')
+
+def precision_m(y_true, y_pred):
+  true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
+  predicted_positives = K.sum(K.round(K.clip(y_pred, 0, 1)))
+  precision = true_positives / (predicted_positives + K.epsilon())
+  return precision
+
+
+def recall_m(y_true, y_pred):
+  true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
+  possible_positives = K.sum(K.round(K.clip(y_true, 0, 1)))
+  recall = true_positives / (possible_positives + K.epsilon())
+  return recall
+
+
+model = load_model('rnn2.h5', custom_objects={'precision_m': precision_m, 'recall_m': recall_m})
 corpus = pickle.load(open('corpus.model', 'rb'))
 
 max_words = 30000

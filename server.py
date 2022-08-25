@@ -21,7 +21,7 @@ sentences_test = [
   'No one will reap except what they sow.'
 ]
 
-model = load_model('rnn.h5')
+model = load_model('rnn2.h5')
 corpus = pickle.load(open('corpus.model', 'rb'))
 
 max_words = 30000

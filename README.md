@@ -14,9 +14,9 @@ Contact me if you like to see how it works!
 
 Keywords: Natural Language Processing, Quotations, Text Classification, Text Extraction, Prediction Model.
 
-## Further Enhancements
+## Updates - August 2022
 
-25 August 2022 - A new RNN model is trained using the best hyperparameters found using Random Search. Then the new model is deployed to be run online and on local computer.
+A new RNN model is trained using the best hyperparameters found using Random Search. Then the new model is deployed to be run online and on local computer.
 
 <a href="https://github.com/rickysoo/nlp-quote/blob/main/quote_rnn.ipynb">quote_rnn.ipynb</a> - Search for the best hyperparameters for a better RNN model.  
 <a href="https://github.com/rickysoo/nlp-quote/blob/main/quote_deploy2.ipynb">quote_deploy2.ipynb</a> - Deploy model to extract quotations using the new model.  
